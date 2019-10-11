@@ -11,7 +11,7 @@ To run the Application:
 
 + Activate the virtualenv : source ./bin/activate
 
-+ Initialize the Git project named "FlaskMongoAssignment"
++ Initialize the Git project named "FlaskMongoAssignment" : git init FlaskMongoAssignment
 
 + Requirements for this application (tried on ubuntu 18.04):
             - Python 2.7.15+
@@ -21,14 +21,14 @@ To run the Application:
             - pymongo==3.8.0
             - pip 9.0.1
             - mongo v4.0.10
-            
+            - py-bcrypt==0.4
+            - Flask-PyMongo==2.3.0
 
 
 + Install the dependencies required to execute this application on your local system:
      
-     pip install <dependencyname> 
-
-
+     pip install <dependencyname>
+ 
 + Check the status of the mongod server: service mongod status
 
 + Start the mongo server : service mongod start
